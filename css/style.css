@@ -1,0 +1,8 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css";
+@import "./blocks.style.css/header.css";
+@import "./blocks/promo.css";
+@import "./blocks/about.css";
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
