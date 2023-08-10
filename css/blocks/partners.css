@@ -1,0 +1,6 @@
+.partners_list {
+  list-style-type: square;
+}
+.partners_list li {
+  color: #99823d;
+}
