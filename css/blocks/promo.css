@@ -30,7 +30,9 @@
   line-height: 17.85px; /* 148.75% */
   letter-spacing: 2.975px;
   text-transform: uppercase;
+  cursor: pointer;
 }
+
 .promo_socials-list {
   list-style-type: none;
   padding-left: 10px;

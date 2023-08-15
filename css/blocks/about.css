@@ -48,6 +48,7 @@
 }
 .about_information-list {
   list-style-type: square;
+  padding-bottom: 136px;
 }
 
 .about_information-item {
@@ -107,6 +108,8 @@
   background: #222;
   width: 11px;
   height: 11px;
+  display: block;
+  margin: 0 auto;
 }
 .about_blocks {
   display: flex;
@@ -150,10 +153,6 @@
   justify-content: center;
 }
 
-.about-image-grid img {
-  position: relative;
-  z-index: 50;
-}
 .about_text-about-image {
   width: 206px;
   height: 102px;
@@ -169,19 +168,164 @@
   align-items: center;
   justify-content: center;
 }
-.about_image-information {
+.about_image-information-list {
   display: flex;
+  list-style-type: none;
+  gap: 34px;
+  justify-content: center;
+}
+.about_image-information-item {
   position: relative;
 }
-.about_image-information-text-item {
+.left-item {
   position: absolute;
-  z-index: 70;
+  left: 0;
+  top: 0;
+  z-index: 500;
 }
-.about_text-about-image {
+.left-item2 {
   position: absolute;
-  z-index: 100;
+  right: 0;
+  top: 158px;
+  z-index: 1000;
 }
-.about_image-title {
+.left-item3 {
   position: absolute;
-  z-index: 150;
+  left: 0;
+  top: 181px;
+  z-index: 2000;
+}
+.about_line {
+  border-right: 1px solid white;
+  height: 275px;
+}
+.left-line1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1500;
+}
+.left-line2 {
+  position: absolute;
+  top: 0;
+  left: 103px;
+}
+.left-line3 {
+  position: absolute;
+  top: 0;
+  left: 205px;
+}
+.left-line4 {
+  position: absolute;
+  top: 0;
+  left: 312px;
+  z-index: 1500;
+}
+.left-line5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5000;
+  height: 207px;
+}
+.center-item {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 500;
+}
+.center-item2 {
+  position: absolute;
+  right: 0;
+  top: 158px;
+  z-index: 1000;
+}
+.center-item3 {
+  position: absolute;
+  left: 0;
+  top: 181px;
+  z-index: 2000;
+}
+.center-line1 {
+  position: absolute;
+  top: 0;
+  z-index: 5000;
+  height: 207px;
+}
+.center-line2 {
+  position: absolute;
+  top: 0;
+  left: 103px;
+}
+.center-line3 {
+  position: absolute;
+  top: 0;
+  left: 205px;
+}
+.center-line4 {
+  position: absolute;
+  top: 0;
+  left: 312px;
+  z-index: 500;
+}
+.center-line5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5000;
+  height: 207px;
+}
+.right-line1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1500;
+}
+.right-line2 {
+  position: absolute;
+  top: 0;
+  left: 103px;
+}
+.right-line3 {
+  position: absolute;
+  top: 0;
+  left: 205px;
+}
+.right-line4 {
+  position: absolute;
+  top: 0;
+  left: 312px;
+  z-index: 1500;
+}
+.right-line5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5000;
+  height: 207px;
+}
+.right-item {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 500;
+}
+.right-item2 {
+  position: absolute;
+  right: 0;
+  top: 158px;
+  z-index: 1000;
+}
+.right-item3 {
+  position: absolute;
+  left: 0;
+  top: 181px;
+  z-index: 2000;
+}
+.about .container {
+  position: relative;
+}
+.landslide {
+  position: absolute;
+  top: 478px;
 }
