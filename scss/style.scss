@@ -1,0 +1,14 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css);
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Teko:wght@400;700&display=swap");
+
+@import "./utils/colors";
+@import "./utils/general";
+@import "./utils/mixin";
+@import "./utils/placeholders";
+@import "./utils/variables";
+@import "./components/about";
+@import "./components/promo";
+@import "./components/productivity";
+@import "./components/partners";
+@import "./components/header";
+@import "./components/footer";

@@ -1,0 +1,131 @@
+.footer {
+  background: $color5;
+  position: relative;
+  height: 239px;
+
+  &__upper-blocks {
+    background: $color6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 68px 68px 34px 68px;
+    position: absolute;
+    bottom: 239px;
+    left: 68px;
+    right: 68px;
+  }
+
+  &__blocks-navigation-list {
+    list-style-type: none;
+
+    display: flex;
+    gap: 37px;
+  }
+  &__blocks-navigation-list a {
+    color: $color3;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 34px; /* 309.091% */
+    letter-spacing: 2.763px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  form {
+    background: $color2;
+    width: 1168px;
+    height: 204px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 17px;
+    position: absolute;
+    top: -36px;
+    left: 136px;
+    right: 136px;
+  }
+  &__-form input::placeholder {
+    color: $color6;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 34px; /* 309.091% */
+    letter-spacing: 2.763px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    margin-left: 42px;
+  }
+  &__form-btn {
+    color: $color3;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px; /* 309.091% */
+    letter-spacing: 2.763px;
+    text-transform: uppercase;
+
+    width: 155px;
+    height: 68px;
+    background: $color5;
+
+    cursor: pointer;
+    border: none;
+  }
+  &__lower-blocks-list {
+    list-style-type: none;
+    display: flex;
+    gap: 36px;
+    margin: 0;
+  }
+  &__lower-right-block {
+    display: flex;
+    gap: 10px;
+  }
+  &__lower-blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 189px;
+  }
+
+  &__lower-blocks-item {
+    color: $color3;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 34px; /* 309.091% */
+    letter-spacing: 2.763px;
+    text-transform: uppercase;
+  }
+
+  &__lower-right-block h4 {
+    color: $color4;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 34px; /* 309.091% */
+    letter-spacing: 2.763px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  &__lower-right-block a {
+    color: $color3;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 34px; /* 309.091% */
+    letter-spacing: 2.763px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  &__-form input {
+    width: 860px;
+    height: 68px;
+    color: $color3;
+    outline: none;
+  }
+}

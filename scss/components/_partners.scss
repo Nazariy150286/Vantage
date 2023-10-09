@@ -1,0 +1,22 @@
+.partners {
+  background-color: $color1;
+  &__list {
+    list-style-type: square;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0 273px;
+    gap: 113px;
+    margin: 0 auto;
+  }
+
+  &__list li:nth-child(1) {
+    list-style-type: none;
+  }
+  &__item {
+    font-size: 30px;
+    padding-left: 63px;
+  }
+  &__list li {
+    color: $color2;
+  }
+}
